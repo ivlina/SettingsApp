@@ -13,6 +13,8 @@
 		52CCA85E26AE03390096BAD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CCA85C26AE03390096BAD0 /* Main.storyboard */; };
 		52CCA86026AE033D0096BAD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CCA85F26AE033D0096BAD0 /* Assets.xcassets */; };
 		52CCA86326AE033D0096BAD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CCA86126AE033D0096BAD0 /* LaunchScreen.storyboard */; };
+		52CCA86B26AE036F0096BAD0 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CCA86A26AE036F0096BAD0 /* SwitchTableViewCell.swift */; };
+		52CCA86D26AE03880096BAD0 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CCA86C26AE03880096BAD0 /* SettingTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		52CCA85F26AE033D0096BAD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52CCA86226AE033D0096BAD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52CCA86426AE033D0096BAD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52CCA86A26AE036F0096BAD0 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		52CCA86C26AE03880096BAD0 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				52CCA85F26AE033D0096BAD0 /* Assets.xcassets */,
 				52CCA86126AE033D0096BAD0 /* LaunchScreen.storyboard */,
 				52CCA86426AE033D0096BAD0 /* Info.plist */,
+				52CCA86A26AE036F0096BAD0 /* SwitchTableViewCell.swift */,
+				52CCA86C26AE03880096BAD0 /* SettingTableViewCell.swift */,
 			);
 			path = SettingsApp;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				52CCA85B26AE03390096BAD0 /* ViewController.swift in Sources */,
+				52CCA86D26AE03880096BAD0 /* SettingTableViewCell.swift in Sources */,
+				52CCA86B26AE036F0096BAD0 /* SwitchTableViewCell.swift in Sources */,
 				52CCA85726AE03390096BAD0 /* AppDelegate.swift in Sources */,
 				52CCA85926AE03390096BAD0 /* SceneDelegate.swift in Sources */,
 			);
